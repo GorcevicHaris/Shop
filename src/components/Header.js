@@ -1,10 +1,13 @@
 import React from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div className="navBar">
       <div className="logo">
-        <img src="orao.png"></img>
+        <Link to={"/"}>
+          <img src="orao.png"></img>
+        </Link>
       </div>
       <div className="endData">
         <h2>Posts</h2>
