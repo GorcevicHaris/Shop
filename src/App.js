@@ -4,7 +4,8 @@ import Header from "./components/Header";
 import PostPage from "./pages/PostPage";
 import HomePage from "./pages/HomePage";
 import ProductsPage from "./pages/ProductsPage";
-
+import { useState, useEffect, axios } from "react";
+import Card from "./components/Card";
 function App() {
   return (
     <BrowserRouter>

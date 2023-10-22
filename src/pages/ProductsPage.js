@@ -17,6 +17,7 @@ function ProductsPage() {
   return (
     <div className="main">
       {data ? data.map((product) => <Card product={product} />) : <h1>nema</h1>}
+      <h1>bla</h1>
     </div>
   );
 }
