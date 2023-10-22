@@ -10,7 +10,12 @@ export default function Header() {
         </Link>
       </div>
       <div className="endData">
-        <h2>Posts</h2>
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to={"/products"}
+        >
+          <h1 style={{ fontWeight: "450" }}>Products</h1>
+        </Link>
         <h2>Product</h2>
       </div>
     </div>
