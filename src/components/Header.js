@@ -16,7 +16,9 @@ export default function Header() {
         >
           <h1 style={{ fontWeight: "450" }}>Products</h1>
         </Link>
-        <h2>Product</h2>
+        <Link to={"/posts"} style={{ textDecoration: "none", color: "black" }}>
+          <h1 style={{ fontWeight: "450" }}>Posts</h1>
+        </Link>
       </div>
     </div>
   );
