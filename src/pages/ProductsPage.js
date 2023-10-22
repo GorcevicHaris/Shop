@@ -5,7 +5,7 @@ import Card from "../components/Card";
 
 function ProductsPage() {
   const [data, setData] = useState([]);
-  function getData() {
+  async function getData() {
     axios
       .get(`https://dummyjson.com/products`)
       .then((data) => setData(data.data.products));
@@ -16,8 +16,14 @@ function ProductsPage() {
   console.log(data);
   return (
     <div className="main">
-      {data ? data.map((product) => <Card product={product} />) : <h1>nema</h1>}
-      <h1>bla</h1>
+      {data ? (
+        data.map((product) => {
+          console.log(product);
+          return <Card product={product} />;
+        })
+      ) : (
+        <h1> lorem20 nema</h1>
+      )}
     </div>
   );
 }
