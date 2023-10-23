@@ -6,14 +6,16 @@ import HomePage from "./pages/HomePage";
 import ProductsPage from "./pages/ProductsPage";
 import { useState, useEffect, axios } from "react";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 function App() {
   return (
     <BrowserRouter>
       <Header />
+      <Footer />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="posts" element={<PostPage />} />
-        <Route path="products" element={<ProductsPage />} />
+        <Route path="/posts" element={<PostPage />} />
+        <Route path="/products" element={<ProductsPage />} />
       </Routes>
     </BrowserRouter>
   );
