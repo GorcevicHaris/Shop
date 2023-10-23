@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
         <div class="footer-column">
           <div class="footer-title">CONTACT</div>
-          <p>New York, NY 10012, US</p>
+          <p>Serbia,Novi Pazar</p>
           <p>info@example.com</p>
           <p>+ 01 234 567 88</p>
           <p>+ 01 234 567 89</p>
