@@ -66,9 +66,16 @@ export default function Footer() {
         <div class="footer-column">
           <div class="footer-title">CONTACT</div>
           <p>Serbia,Novi Pazar</p>
-          <p>info@example.com</p>
-          <p>+ 01 234 567 88</p>
-          <p>+ 01 234 567 89</p>
+          <p>© 2023 Vaša Kompanija</p>
+          <p>
+            <span class="email-icon"></span> Kontakt:{" "}
+            <a style={{ color: "white" }} href="mailto:info@vaskompanija.com">
+              info@vaskompanija.com
+            </a>
+          </p>
+          <p>
+            <span class="phone-icon"></span> Telefon: +123 456 789
+          </p>
         </div>
       </div>
     </div>

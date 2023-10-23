@@ -14,10 +14,10 @@ export default function Header() {
           style={{ textDecoration: "none", color: "black" }}
           to={"/products"}
         >
-          <h1 style={{ fontWeight: "450" }}>Products</h1>
+          <h1 style={{ fontWeight: "450", color: "white" }}>Products</h1>
         </Link>
         <Link to={"/posts"} style={{ textDecoration: "none", color: "black" }}>
-          <h1 style={{ fontWeight: "450" }}>Posts</h1>
+          <h1 style={{ fontWeight: "450", color: "white" }}>Posts</h1>
         </Link>
       </div>
     </div>
