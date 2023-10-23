@@ -65,6 +65,16 @@ export default function Footer() {
         </div>
         <div class="footer-column">
           <div class="footer-title">CONTACT</div>
+          <p>Autor: Vaše Ime</p>
+          <p>
+            <span class="github-icon"></span> GitHub:{" "}
+            <a
+              style={{ color: "white" }}
+              href="https://github.com/GorcevicHaris"
+            >
+              Gorcevic Haris
+            </a>
+          </p>
           <p>Serbia,Novi Pazar</p>
           <p>© 2023 Vaša Kompanija</p>
           <p>
@@ -74,7 +84,7 @@ export default function Footer() {
             </a>
           </p>
           <p>
-            <span class="phone-icon"></span> Telefon: +123 456 789
+            <span class="phone-icon"></span> Telefon: +381 64 557 03 16
           </p>
         </div>
       </div>
