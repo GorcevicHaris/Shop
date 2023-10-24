@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
         <div class="footer-column">
           <div class="footer-title">CONTACT</div>
-          <p>Autor: Vaše Ime</p>
+          <p>Autor: Haris Gorcevic</p>
           <p>
             <span class="github-icon"></span> GitHub:{" "}
             <a

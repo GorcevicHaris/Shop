@@ -7,6 +7,7 @@ import ProductsPage from "./pages/ProductsPage";
 import { useState, useEffect, axios } from "react";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
+import SinglePost from "./pages/SinglePost";
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/posts" element={<PostPage />} />
+        <Route path="/posts/:info" element={<SinglePost />} />
+        <Route path="/posts/:info" />
         <Route path="/products" element={<ProductsPage />} />
       </Routes>
       <Footer />
