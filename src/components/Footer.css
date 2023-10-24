@@ -27,11 +27,11 @@
     padding-left: 50px;
 }
 .footer-column {
-width: 24%;
-height: 100%;
-display: flex;
-flex-direction: column  ;
-gap: 3px;
+    width: 24%;
+    height: 100%;
+    display: flex;
+    flex-direction: column  ;
+    gap: 3px;
 }
 
 .footer-title {
@@ -60,4 +60,9 @@ gap: 3px;
 .footer-link {
     color: #fff;
     text-decoration: none;
+}
+.single{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
 }

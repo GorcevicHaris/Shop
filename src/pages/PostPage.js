@@ -2,9 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./products.css";
 import axios from "axios";
 import Card from "../components/Card";
-import { useNavigate } from "react-router-dom";
 
-function PostPage({ post }) {
+function PostPage() {
   const [data, setData] = useState([]);
   async function getData() {
     axios
