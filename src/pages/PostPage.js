@@ -2,9 +2,11 @@ import React, { useEffect, useState } from "react";
 import "./products.css";
 import axios from "axios";
 import Card from "../components/Card";
+import { useNavigate } from "react-router-dom";
 
-function PostPage() {
+function PostPage({ post }) {
   const [data, setData] = useState([]);
+  const navigate = useNavigate();
   async function getData() {
     axios
       .get(`https://dummyjson.com/posts`)
