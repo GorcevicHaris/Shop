@@ -6,7 +6,6 @@ import { useNavigate } from "react-router-dom";
 
 function PostPage({ post }) {
   const [data, setData] = useState([]);
-  const navigate = useNavigate();
   async function getData() {
     axios
       .get(`https://dummyjson.com/posts`)

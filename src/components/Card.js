@@ -1,8 +1,10 @@
 import React from "react";
 import "./header.css";
+import { useNavigate } from "react-router-dom";
 export default function Card({ product }) {
+  const navigate = useNavigate();
   return (
-    <div className="card">
+    <div onClick={() => navigate(`/posts/${product.id}`)} className="card">
       <h1>{product.title}</h1>
       <h1>{product.id}</h1>
       <h1>{product.category}</h1>
