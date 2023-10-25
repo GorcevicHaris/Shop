@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import { useNavigate } from "react-router-dom";
-export default function Card({ product }) {
+function Card({ product }) {
   const navigate = useNavigate();
   return (
     <div onClick={() => navigate(`/posts/${product.id}`)} className="card">
@@ -14,3 +14,4 @@ export default function Card({ product }) {
     </div>
   );
 }
+export default Card;

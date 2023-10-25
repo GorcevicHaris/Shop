@@ -5,5 +5,61 @@ export default function SinglePost() {
   const { info } = useParams();
   console.log(info);
 
-  return <div>{info}</div>;
+  return (
+    <div
+      style={{
+        backgroundColor: "red",
+        height: "100vh",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      {info}
+      <h1>aslkdjailsjdlasi</h1> <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1> <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+      <h1>aslkdjailsjdlasi</h1>
+    </div>
+  );
 }
