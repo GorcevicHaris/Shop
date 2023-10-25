@@ -3,9 +3,13 @@ import "./header.css";
 import { useNavigate } from "react-router-dom";
 function Card({ product }) {
   const navigate = useNavigate();
+  let image = product.images[0].slice(38).split("").join("");
+  console.log(image);
+  // const title = product.title.split("").reverse().join("");
+  // console.log(title);
   return (
     <div
-      onClick={() => navigate(`/posts/${product.images[2]}`)}
+      onClick={() => navigate(`/posts/${image}}}`, { state: { product } })}
       className="card"
     >
       <h1>{product.title}</h1>

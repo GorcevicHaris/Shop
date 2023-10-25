@@ -13,7 +13,6 @@ function ProductsPage() {
   useEffect(() => {
     getData();
   }, []);
-  console.log(data);
   return (
     <div className="main">
       {data ? (

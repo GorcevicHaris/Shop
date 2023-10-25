@@ -13,12 +13,10 @@ function PostPage() {
   useEffect(() => {
     getData();
   }, []);
-  console.log(data);
   return (
     <div className="main">
       {data ? (
         data.map((product) => {
-          console.log(product);
           return <Card product={product} />;
         })
       ) : (
