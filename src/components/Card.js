@@ -4,7 +4,10 @@ import { useNavigate } from "react-router-dom";
 function Card({ product }) {
   const navigate = useNavigate();
   return (
-    <div onClick={() => navigate(`/posts/${product.id}`)} className="card">
+    <div
+      onClick={() => navigate(`/posts/${product.images[2]}`)}
+      className="card"
+    >
       <h1>{product.title}</h1>
       <h1>{product.id}</h1>
       <h1>{product.category}</h1>

@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 .Cardcontainer{
-    /* background-Color: red; */
+    background-Color: red;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-Direction: column;
