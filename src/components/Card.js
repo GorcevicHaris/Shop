@@ -11,6 +11,7 @@ function Card({ product }) {
       <h1>{product.user}</h1>
       <h1>{product.brand}</h1>
       <h1>{product.tags}</h1>
+      {/* <h1>{product.images[0]}</h1> */}
     </div>
   );
 }
