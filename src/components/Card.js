@@ -3,9 +3,9 @@ import "./header.css";
 import { useNavigate } from "react-router-dom";
 function Card({ product }) {
   const navigate = useNavigate();
-  let image = product.images[0].slice(38).split("").join("");
+  let image = product.images[0].slice(38).split("/").join(",");
   console.log(image);
-  // const title = product.title.split("").reverse().join("");
+  // const title = product.title.split("/").join(",");
   // console.log(title);
   return (
     <div
