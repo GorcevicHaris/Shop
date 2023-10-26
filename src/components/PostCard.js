@@ -14,7 +14,6 @@ function PostCard({ post }) {
     >
       <h1>asdasdasd</h1>
       <h1>{post.title}</h1>
-      <h1>{post.body}</h1>
       {/* <h1>{post.images[0]}</h1> */}
     </div>
   );
