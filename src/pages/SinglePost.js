@@ -2,7 +2,6 @@ import React from "react";
 import { useLocation, useParams } from "react-router-dom";
 import "./singlepost.css";
 import Card from "../components/Card";
-
 export default function SinglePost({}) {
   // const { info } = useParams();
   // console.log("INFO", info);
@@ -21,13 +20,15 @@ export default function SinglePost({}) {
               height: "100%",
               padding: "0",
             }}
-            src={product.images[0]}
+            src={product.thumbnail}
           ></img>
         </div>
         <div className="data">
-          <h1 style={{ fontSize: "50px", fontWeight: "300" }}>
-            {product.title}
-          </h1>
+          <h5>{product.title}</h5>
+          <h2>Description: {product.description}</h2>
+          <h2>Ocena: {product.rating}</h2>
+          <h2>category: {product.category}</h2>
+          <h2>Cena: {product.price}</h2>
         </div>
       </div>
     </div>
