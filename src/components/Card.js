@@ -10,7 +10,7 @@ function Card({ product }) {
   return (
     <div
       onClick={() =>
-        navigate(`/posts/${product.title}`, { state: { product } })
+        navigate(`/product/${product.title}`, { state: { product } })
       }
       className="card"
     >
