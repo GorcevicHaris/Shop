@@ -20,15 +20,15 @@ export default function SingleProduct({}) {
               height: "100%",
               padding: "0",
             }}
-            src={product.thumbnail}
+            src={product?.thumbnail}
           ></img>
         </div>
         <div className="data">
-          <h5>{product.title}</h5>
-          <h2>Description: {product.description}</h2>
-          <h2>Ocena: {product.rating}</h2>
-          <h2>category: {product.category}</h2>
-          <h2>Cena: {product.price}</h2>
+          <h5>{product?.title}</h5>
+          <h2>Description: {product?.description}</h2>
+          <h2>Ocena: {product?.rating}</h2>
+          <h2>category: {product?.category}</h2>
+          <h2>Cena: {product?.price}</h2>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./products.css";
 import axios from "axios";
 import Card from "../components/Card";
+import PostCard from "../components/PostCard";
 
 function PostPage() {
   const [data, setData] = useState([]);
@@ -16,8 +17,8 @@ function PostPage() {
   return (
     <div className="main">
       {data ? (
-        data.map((product) => {
-          return <Card product={product} />;
+        data.map((post) => {
+          return <PostCard post={post} />;
         })
       ) : (
         <h1> lorem20 nema</h1>
