@@ -4,7 +4,7 @@ import "./singlepost.css";
 import Card from "../components/Card";
 
 export default function SinglePost({}) {
-  const { info } = useParams();
+  // const { info } = useParams();
   // console.log("INFO", info);
 
   // let teno = info.split(",").join("/");
@@ -13,8 +13,23 @@ export default function SinglePost({}) {
   const { product } = state;
   return (
     <div className="Cardcontainer">
-      <h1>{product.title}</h1>
-      <img src={product.images[0]}></img>
+      <div className="fullPage">
+        <div className="imgDiv">
+          <img
+            style={{
+              width: "100%",
+              height: "100%",
+              padding: "0",
+            }}
+            src={product.images[0]}
+          ></img>
+        </div>
+        <div className="data">
+          <h1 style={{ fontSize: "50px", fontWeight: "300" }}>
+            {product.title}
+          </h1>
+        </div>
+      </div>
     </div>
   );
 }

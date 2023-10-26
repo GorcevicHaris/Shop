@@ -8,7 +8,23 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-Direction: column;
     align-Items: center;
     justify-Content: center;
+}
+.imgDiv{
+    width: 50%;
+    height: 100%;
+    /* background-color: purple; */
+}
+.data{
+    width: 70%;
+    background-color: green;
+    height: 100%;
+}
+.fullPage{
+    width: 100%;
+    height: 62%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
 }
