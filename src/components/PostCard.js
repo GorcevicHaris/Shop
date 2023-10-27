@@ -10,11 +10,11 @@ function PostCard({ post }) {
   console.log(post);
   return (
     <div
-      onClick={() => navigate(`/post/${post.id}`, { statePost: { post } })}
+      onClick={() => navigate(`/post/${post.id}`, { state: { post } })}
       className="card"
     >
-      <h1>{post.body}</h1>
-      {/* <h1>{posts.images[0]}</h1> */}
+      <h1>{post.title}</h1>
+      <h1>{post.id}</h1>
     </div>
   );
 }

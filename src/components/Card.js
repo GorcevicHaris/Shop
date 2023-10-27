@@ -7,6 +7,8 @@ function Card({ product }) {
   // console.log(image);
   // const title = product.title.split("/").join(",");
   // console.log(title);
+  ///asdasd
+  console.log(product);
   return (
     <div
       onClick={() =>

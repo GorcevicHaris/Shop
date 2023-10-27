@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation, useParams } from "react-router-dom";
 import "./singleproduct.css";
-export default function SingleProduct() {
+function SingleProduct() {
   // const { info } = useParams();
   // console.log("INFO", info);
 
@@ -34,3 +34,4 @@ export default function SingleProduct() {
     </div>
   );
 }
+export default SingleProduct;
