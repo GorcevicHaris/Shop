@@ -1,8 +1,7 @@
 import React from "react";
 import { useLocation, useParams } from "react-router-dom";
 import "./singleproduct.css";
-import Card from "../components/Card";
-export default function SingleProduct({}) {
+export default function SingleProduct() {
   // const { info } = useParams();
   // console.log("INFO", info);
 
@@ -29,6 +28,7 @@ export default function SingleProduct({}) {
           <h2>Ocena: {product?.rating}</h2>
           <h2>category: {product?.category}</h2>
           <h2>Cena: {product?.price}</h2>
+          <h2>Cenaaaa: {product?.id}</h2>
         </div>
       </div>
     </div>

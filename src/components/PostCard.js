@@ -7,14 +7,14 @@ function PostCard({ post }) {
   // console.log(image);
   // const title = post.title.split("/").join(",");
   // console.log(title);
+  console.log(post);
   return (
     <div
-      onClick={() => navigate(`/posts/${post.title}`, { statePost: { post } })}
+      onClick={() => navigate(`/post/${post.id}`, { statePost: { post } })}
       className="card"
     >
-      <h1>asdasdasd</h1>
-      <h1>{post.title}</h1>
-      {/* <h1>{post.images[0]}</h1> */}
+      <h1>{post.body}</h1>
+      {/* <h1>{posts.images[0]}</h1> */}
     </div>
   );
 }
